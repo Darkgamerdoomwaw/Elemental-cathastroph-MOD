@@ -1,0 +1,10 @@
+name:rockwall-large
+description: A verry strong wall that is stronger then the fire and water wall
+type: Wall
+health: 2000
+size: 2
+requirements: [
+  rock/24
+]
+category: defense
+research: rockwall

@@ -1,0 +1,32 @@
+ type: GenericCrafter
+ name: rockgearpress
+ description: a 
+ itemCapacity : 20
+ liquidCapacity: 40
+ health: 400
+ size: 2
+ hasPower: true
+ hasItems: true
+ hasLiquid: true
+ craftTime: 40
+ updateEffect: mineBig
+"consumes": {
+  "power": 0.3
+  "items": {
+    "items": [
+      {"item": "lead", "amount": 2}
+      {"item": "rock", "amount": 1}
+    ]
+  }
+}
+ requirements: [
+    {item: lead , amount : 20}
+    {item: copper , amount : 20}
+    {item: rockinfusedcopper , amount : 20}
+      {item: rock , amount : 20}
+        ]
+ category : crafting
+ research : icegearpress
+ idleSound : respawning
+ idleSoundVolume : 0.5
+ outputItem: rockgear/1

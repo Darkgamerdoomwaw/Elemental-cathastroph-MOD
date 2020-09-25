@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Ice",
+"description": "is ice what you expect ",
+"color": "71CCD8FF",
+"flammability": 0,
+"explosiveness": 0,
+"radioactivity": 0,
+"hardness": 3,
+"cost": 2.5,
+"alwaysUnlocked": false
+}

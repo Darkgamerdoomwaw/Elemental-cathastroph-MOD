@@ -1,0 +1,10 @@
+name: rockWall
+description: A wall made of Rock and is supper durable 
+type: Wall
+health: 500
+size: 1
+requirements: [
+  rock/6
+]
+category: defense
+research: icewall-large

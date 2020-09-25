@@ -1,0 +1,10 @@
+name: firewall-large
+description: A wall infused with the fire element 
+type: Wall
+health: 1900
+size: 2
+requirements: [
+  fire/24
+]
+category: defense
+research: firewall

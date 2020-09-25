@@ -1,0 +1,72 @@
+{
+"type": "DoubleTurret"
+"name": "FireInfused-duo"
+"size": 1
+"health": 560
+"reload": 12
+"restitution": 0.02
+"inaccuracy": 2
+"rotatespeed": 6
+"range": 150
+"recoil": 3
+"shootCone": 20
+"shots": 1
+"targetAir": true
+"targetGround": true
+"ammoUseEffect": "shellEjectSmall"
+"ammo": {
+ "copper": {
+	 "speed": 4
+	 "damage": 15
+	 "reloadMultiplier": 1.5
+	 "bulletWidth": 8
+	 "bulletHeight": 10
+	 "inaccuracy": 2
+	 "ammoMultiplier": 4
+	 "shootEffect": "shootSmall"
+	 "smokeEffect": "shootSmallSmoke"
+	 "bulletSprite": "Firebullet"
+	 frontColor: F0E4A8
+    backColor: deae66
+	 }
+ "silicon": "standardHoming"
+ "lead": {
+	 "speed": 4
+	 "damage": 10
+	 "reloadMultiplier": 0.5
+	 "bulletWidth": 8
+	 "bulletHeight": 10
+	 "inaccuracy": 5
+	 "ammoMultiplier": 5
+	 "shootEffect": "shootSmall"
+	 "smokeEffect": "shootSmallSmoke"
+	 "bulletSprite": "Firebullet"
+	 frontColor: F0E4A8
+    backColor: deae66
+	 },
+ "fire": {
+	 "speed": 4
+	 "damage": 20
+	 "reloadMultiplier": 1.8
+	 "bulletWidth": 8
+	 "bulletHeight": 10
+	 "inaccuracy": 1
+	 "ammoMultiplier": 4
+	 "shootEffect": "shootSmall"
+	 "smokeEffect": "shootSmallSmoke"
+	 "bulletSprite": "Firebullet"
+	 frontColor: FF9C59FF
+    backColor: FF9C59FF
+	 }
+ }
+"requirements": [
+ {"item": "fireinfusedcopper", "amount": 45}
+ {"item": "graphite", "amount": 35}
+ {"item": "lead", "amount": 60}
+ {"item": "leadgear", "amount": 35}
+ {"item": "wood", "amount": 35}
+]
+"category": "turret"
+"research": "duo"
+"shootSound": "shootSnap"
+}

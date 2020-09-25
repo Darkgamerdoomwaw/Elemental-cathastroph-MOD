@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Wood",
+"description": "is wood what you expect and is a super flamebel",
+"color": "663D17FF",
+"flammability": 6,
+"explosiveness": 0,
+"radioactivity": 0,
+"hardness": 20,
+"cost": 2.5,
+"alwaysUnlocked": false
+}

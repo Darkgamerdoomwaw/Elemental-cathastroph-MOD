@@ -1,0 +1,12 @@
+{
+ "type" : "material"
+ "name" : "iceinfusedCopper"
+ "description" : "is copper infused with water"
+ "color" :17BED4FF
+ "flammability" : 0
+ "radioactivity" : 0
+ "explosiveness" : 0
+ "hardness" : 1
+ "cost" : 1
+ "alwaysUnlock" : "false"
+ }

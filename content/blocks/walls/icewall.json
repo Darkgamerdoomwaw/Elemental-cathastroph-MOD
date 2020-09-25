@@ -1,0 +1,10 @@
+name: icewall
+description: 
+type: Wall
+health: 430
+size: 1
+requirements: [
+  ice/6
+]
+category: defense
+research: firewall-large

@@ -1,0 +1,30 @@
+ "type": "GenericCrafter"
+ "name": "freezer"
+ "description": "freezeswater what you expect and makes something called ice thats very vragel"
+ "itemCapacity" : 20
+ "liquidCapacity": 40
+ "health": 400
+ "size": 2
+ "hasPower": "true"
+ "hasItems": "true"
+ "hasLiquid": "true"
+ "craftTime": 40
+ "updateEffect": "mineBig"
+ "consumes": {
+         "power": 0.3
+         "liquid": {
+             "liquid" : "water" , 
+             "amount": 0.6
+            }
+          }
+ "requirements": [
+    {"item": "lead" , "amount" : 50}
+    {"item": "copper" , "amount" : 100}
+    {"item": "leadgear" , "amount" : 40}
+    {"item": "wood" , "amount" : 35}
+     ]
+ "category" : "crafting",
+ "research" : "rockgearpress"
+ "idleSound" : "respawning"
+ "idleSoundVolume" : 0.5
+ outputItem: ice/3

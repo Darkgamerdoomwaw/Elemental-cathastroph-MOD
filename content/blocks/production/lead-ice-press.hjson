@@ -1,0 +1,34 @@
+ type: GenericSmelter 
+ name: lead-ice-press
+ description: more known as the LIP this advanced piece of machinery can compres lead so advans that it can keep it in its solid form but is super fragile yea
+ itemCapacity : 20
+ liquidCapacity: 40
+ health: 400
+ size: 3
+ hasPower: true
+ hasItems: true
+ hasLiquid: true
+ craftTime: 40
+ updateEffect: mineBig
+"consumes": {
+  "power": 0.3
+  "items": {
+    "items": [
+      {"item": "lead", "amount": 4}
+      {"item": "ice", "amount": 1}
+     ]
+    }
+}
+ requirements: [
+      {"item": "leadgear", "amount": 30}
+      {"item": "iceinfusedcopper", "amount": 25}
+      {"item": "wood", "amount": 24}
+      {"item": "copper", "amount": 100}
+      {"item": "lead", "amount": 50}
+      {"item": "titanium", "amount": 30}
+     ]
+ category : crafting
+ research : lead-fire-press
+ idleSound : respawning
+ idleSoundVolume : 0.5
+ outputItem: iceinfusedlead/1

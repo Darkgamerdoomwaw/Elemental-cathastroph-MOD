@@ -1,0 +1,10 @@
+name:icewall-large
+description: 
+type: Wall
+health: 1200
+size: 2
+requirements: [
+  ice/24
+]
+category: defense
+research: icewall

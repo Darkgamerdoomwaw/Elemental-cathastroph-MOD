@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "LavaRock",
+"description": "is a Rock that is infused with the fire Element and is supper power efficient",
+"color": "EF692FFF",
+"flammability": 17,
+"explosiveness": 30,
+"radioactivity": 0,
+"hardness": 50,
+"cost": 2.5,
+"alwaysUnlocked": false
+}

@@ -1,0 +1,12 @@
+{
+ "type" : "material"
+ "name" : "Rockgear"
+ "description" : "is a gear what you expect used to make advances machinery"
+ "color" :5E5E5EFF
+ "flammability" : 0
+ "radioactivity" : 0
+ "explosiveness" : 0
+ "hardness" : 50
+ "cost" : 3.6
+ "alwaysUnlock" : "false"
+ }

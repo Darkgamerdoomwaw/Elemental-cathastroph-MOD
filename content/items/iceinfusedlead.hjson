@@ -1,0 +1,12 @@
+{
+ "type" : "material"
+ "name" : "iceInfusedLead"
+ "description" : "is Lead infused with ice"
+ "color" :17BED4FF
+ "flammability" : 0
+ "radioactivity" : 0
+ "explosiveness" : 0
+ "hardness" : 1
+ "cost" : 1
+ "alwaysUnlock" : "false"
+ }

@@ -1,0 +1,23 @@
+"name": "RockDrill"
+"description": this is not so fast as the water drill but can mine tor "
+"type": "Drill"
+"size": 2
+"tier": 4
+"drillTime": 150
+"drawRim": true
+"drawDrillItem": true
+"requirements": [
+  {"item": "rockinfusedcopper", "amount": 20},
+  {"item": "graphite", "amount" : 50},
+  {"item": "silicon", "amount" : 60},
+]
+"consumes": {
+	"liquid": {
+		"liquid": "water", 
+		"amount": 0.08,
+		"booster": true
+		"optional": true
+	}
+},
+"category": "production"
+"research": "icedrill"

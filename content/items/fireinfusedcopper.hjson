@@ -1,0 +1,12 @@
+{
+ "type" : "material"
+ "name" : "FireInfusedCopper"
+ "description" : "is copper infused whit fire what you expect"
+ "color" :FF0000FF
+ "flammability" : 10
+ "radioactivity" : 0
+ "explosiveness" : 0
+ "hardness" : 13
+ "cost" : 3.6
+ "alwaysUnlock" : "false"
+ }

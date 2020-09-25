@@ -1,0 +1,12 @@
+{
+ "type" : "material"
+ "name" : "Fire"
+ "description" : "waw this is lateral fire to make all the ingots of the game"
+ "color" :FF0000FF
+ "flammability" : 15
+ "radioactivity" : 0
+ "explosiveness" : 0
+ "hardness" : 4
+ "cost" : 3.6
+ "alwaysUnlock" : "false"
+ }

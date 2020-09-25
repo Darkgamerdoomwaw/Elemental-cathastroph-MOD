@@ -1,0 +1,12 @@
+{
+"type": "material",
+"name": "Rock",
+"description": "is Rock what you expect ",
+"color": "555753FF",
+"flammability": 0,
+"explosiveness": 0,
+"radioactivity": 0,
+"hardness": 30,
+"cost": 2.5,
+"alwaysUnlocked": false
+}

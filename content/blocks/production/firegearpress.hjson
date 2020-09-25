@@ -1,0 +1,32 @@
+ type: GenericCrafter
+ name: firegearpress
+ description: this machine can make with Leadgear fire once
+ itemCapacity : 20
+ liquidCapacity: 40
+ health: 400
+ size: 2
+ hasPower: true
+ hasItems: true
+ hasLiquid: true
+ craftTime: 40
+ updateEffect: mineBig
+"consumes": {
+  "power": 0.3
+  "items": {
+    "items": [
+      {"item": "leadgear", "amount": 2}
+      {"item": "fire", "amount": 1}
+    ]
+  }
+}
+ requirements: [
+    {item: lead , amount : 20}
+    {item: copper , amount : 20}
+    {item: fireinfusedcopper , amount : 20}
+      {item: fire , amount : 20}
+        ]
+ category : crafting
+ research : gearpress
+ idleSound : respawning
+ idleSoundVolume : 0.5
+ outputItem: firegear/2

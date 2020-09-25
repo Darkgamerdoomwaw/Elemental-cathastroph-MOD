@@ -1,0 +1,46 @@
+{
+"type": "DoubleTurret"
+"name": "iceinfused-duo"
+"size": 1
+"health": 270
+"reload": 15
+"restitution": 0.02
+"inaccuracy": 2
+"rotatespeed": 6
+"range": 150
+"recoil": 3
+"shootCone": 20
+"shots": 1
+"targetAir": true
+"targetGround": true
+"ammoUseEffect": "shellEjectSmall"
+"ammo": {
+ "copper": "standardCopper"
+ "silicon": "standardHoming"
+ "lead": "flakLead"
+ "ice": {
+	 "speed": 7
+	 "damage": 32
+	 "reloadMultiplier": 1.01
+	 "bulletWidth": 8
+	 "bulletHeight": 10
+	 "lifetime": 70
+	 "inaccuracy": 5
+	 "ammoMultiplier": 4
+	 "shootEffect": "shootSmall"
+	 "smokeEffect": "shootSmallSmoke"
+	 "bulletSprite": "icebullet"
+	 "frontColor": "8CA4F5FF"
+	 "backColor": "8CA4F5FF"
+	 }
+ }
+"requirements": [
+ {"item": "iceinfusedcopper", "amount": 45}
+ {"item": "graphite", "amount": 35}
+ {"item": "lead", "amount": 60}
+ {"item":"leadgear","amount": 30}
+]
+"category": "turret"
+"research": "fireinfused-duo"
+"shootSound": "shootSnap"
+}

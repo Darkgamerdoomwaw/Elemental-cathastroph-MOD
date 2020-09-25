@@ -1,0 +1,58 @@
+type: flyingUnit
+name: Elemental-fighter
+description: "A  fast, hit-and-run interceptor unit. ."
+speed: 0.3
+maxVelocity: 1.9
+drag: 0.01
+flying: true
+health: 75
+engineOffset: 5.5
+engineSize: 1
+range: 300
+hitsize: 1
+hitsizeTile: 2
+rotatespeed: 0.15
+baseRotateSpeed: 0.06
+rotateWeapon: true
+mass: 1.5
+weapon: {
+  length: 1.5
+  reload: 24
+  alternate: true
+  shootSound: shoot
+  ejectEffect: shellEjectSmall
+  bullet: {
+    type: BasicBulletType
+    speed: 2.5
+	lifetime: 60
+    damage: 8
+    bulletWidth: 7
+    bulletHeight: 9
+	frontColor: 9A9FB4FF
+	backColor: 9A9FB4FF
+    shootEffect: shootSmall
+    smokeEffect: none
+    despawnEffect: none
+	keepVelocity: false
+	//homingPower: 2.25
+	//homingRange: 100
+	bulletSprite: bullet
+	fragBullets: 12
+	fragVelocityMin: 1
+	fragVelocityMax: 3
+	fragBullet: {
+      type: BasicBulletType
+      speed: 1
+	  lifetime: 3
+      damage: 0
+      bulletWidth: 0
+      bulletHeight: 0
+	  despawnEffect: none
+	  hitEffect: none
+	  frontColor: 9A9FB4FF
+	  backColor: 9A9FB4FF
+	  //trailColor: 88ffff
+	  pierce: true
+    }
+  }
+}
