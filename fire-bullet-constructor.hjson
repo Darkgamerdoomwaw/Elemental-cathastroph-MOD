@@ -1,0 +1,34 @@
+{
+ "type":"genericCrafter"
+ "name":"fire-bullet-constructor"
+ "discription":"compresses fire in to a empty bullet shell to creat a new and stronger ammo type the fire bullet"
+ "itemCapacity":20
+ "health":400
+ "size":2
+ "hasPower":"true"
+ "hasItem":"true"
+ "craftTime":10
+ "updateEffect":"mineBig"
+ "Consumes":{
+  "power":0.5
+  "items":{
+   "items":[
+    {"item":"fire","amount":4}
+    {"item":"empty-bulletshell","amount":1}
+    ]
+   }
+  }
+  "requirements":[
+   {"item":"copper","amount":69}
+   {"item":"lead","amount":50}
+   {"item":"graphite","amount":10}
+   {"item":"leadgear","amount":15}
+   {"item":"wood","amount":30}
+   {"item":"fire","amount":20}
+   {"item":"titanium","amount":60}
+  ]  
+ "category":"crafting"
+ "research":"bulletshell-constructer"
+ "idelSound":"respawning"
+ outputItem:fire-bullet/1
+}

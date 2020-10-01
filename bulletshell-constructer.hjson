@@ -1,0 +1,35 @@
+{
+ "type":"genericCrafter"
+ "name":"bulletshell-constructer"
+ "discription":"compresses lead into a bullet shell for a ferios types of ammo"
+ "itemCapacity":10
+ "health":500
+ "size":2
+ "hasPower":"true"
+ hasItem":"true"
+ "craftTime":20
+ "updateEffect":"mineBig"
+ "consumes":{
+  "power":0.3
+  "items":{
+   "items":[
+     {"item":"lead","amount":3}
+    ]
+   }
+  }
+ "requirements":[
+  {"item":"copper","amount":70}
+  {"item":"lead","amount":50}
+  {"item":"graphite","amount":20}
+  {"item":"titanium","amount":40}
+  {"item":"leadgear","amount":45}
+  {"item":"wood","amount":47}
+]
+ "category":"crafting"
+ "research":"multi-press"
+ "idelSound":"respawning"
+ "idelSoundVolume":0.5
+ outputItem:empty-bulletshell/1
+}
+ 
+   
