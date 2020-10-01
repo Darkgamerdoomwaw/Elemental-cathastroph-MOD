@@ -1,0 +1,12 @@
+{
+ "type" : "material"
+ "name" : "empty-bulletshell"
+ "description" : "a piece of lead needed for manufacturing of very strong bullets"
+ "color" :FF0000FF
+ "flammability" : 0
+ "radioactivity" : 0
+ "explosiveness" : 0
+ "hardness" : 4
+ "cost" : 3.6
+ "alwaysUnlock" : "false"
+ }
