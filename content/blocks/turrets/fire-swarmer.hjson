@@ -1,0 +1,36 @@
+type: BurstTurret
+name: fire-swarmer
+description: An improved fire version of the Swarmer. 
+requirements: [
+graphite/35
+titanium/35
+fire/45
+silicon/30
+fireinfusedcopper/50
+]
+reload: 40
+shots: 4
+burstSpacing: 5
+inaccuracy: 10
+range: 185
+xRand: 6
+size: 2
+health: 2000
+shootSound: missile
+ammo: {
+ fire: {
+ type: MissileBulletType
+ speed: 2.7f
+ bulletHeight: 8
+ bulletShrink: 0
+ drag: -0.01
+ splashDamageRadius: 50
+ splashDamage: 30
+ damage: 20.5
+ ammoMultiplier: 1.5
+ lifetime: 150
+ hitEffect: blastExplosion
+ status: burning
+}}
+"category":"turret"
+"research":"fire-salvo"

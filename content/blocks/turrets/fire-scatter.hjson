@@ -1,0 +1,30 @@
+type: ItemTurret
+name: fire-scater
+description: An improved fire version of the Scatter turret.
+health: 1050
+coolantMultiplier: 40
+size: 2
+hasItems: true
+hasLiquids: true
+itemCapacity: 10
+liquidCapacity: 10
+requirements: [
+copper/75
+lead/50
+fire/50
+fireinfusedcopper/40
+]
+ammo: {
+fire: {
+lifetime: 60
+speed: 3
+ammoMultiplier: 2
+shootEffect: shootSmall
+smokeEffect: shootSmallSmoke
+damage: 12
+bulletWidth: 9
+bulletHeight: 11
+ }
+}
+"category":"turret"
+"research":"scatter"

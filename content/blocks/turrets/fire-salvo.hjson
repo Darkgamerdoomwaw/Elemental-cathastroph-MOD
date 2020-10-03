@@ -1,0 +1,40 @@
+type: BurstTurret
+name: fire-Salvo
+description: An improved fire version of the Salvo.
+requirements: [
+copper/105
+graphite/95
+titanium/60
+fireinfusedcopper/30
+]
+health: 960
+size: 2
+range: 150
+reload: 30
+restitution: 0.03
+coolantMultiplier: 20
+ammoEjectBack: 3
+cooldown: 0.03
+recoil: 3
+shootShake: 2
+burstSpacing: 3
+shots: 4
+ammoUseEffect: shellEjectBig
+shootSound: shootBig
+ammo: {
+ fire: {
+ lifetime: 60
+ speed: 3
+ ammoMultiplier: 2
+ shootEffect: shootSmall
+ smokeEffect: shootSmallSmoke
+ damage: 20
+ bulletWidth: 9
+ bulletHeight: 12
+ frontColor:ED6C55FF
+ backColor:ED6C55FF
+ bulletSprite:fire_bullet
+ }
+}
+"category":"turret"
+"research":"fire-scatter"
